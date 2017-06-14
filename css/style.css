@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+span.txt-menu {
+    float: left;
+    color: white;
+    margin-right: 10px;
+}
+
+span.hamburguesa {
+    float: right;
+}
+
+header#home {
+	background-image: url(../img/header-bg.jpg);
+	position: relative;
+}
+
+.bg-img {
+	min-height: 110vh;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+
+/*** MODIFICICAR EN MeDIA QUERY***/
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar .navbar-inverse .navbar-fixed-top{
+    margin: 20px;
+}
+
+/*** MODIFICICAR EN MADIA QUERY***/
+.box {
+	margin-top: 200px;
+}
+
+.box h3{
+	font-family: 'Droid Serif', serif;
+}
+
+.box h1{
+	font-family: 'Raleway', sans-serif;
+}
+
+.box button {
+	font-family: 'Raleway', sans-serif;
+	background-color: #fccc00;
+	border-radius: 5px;
+	border: none;
+}
+
+.navbar-inverse .navbar-brand {
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 600;
+	color: #fccc00;
+	font-size: 140%;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-weight: 
+}
+
+.navbar-toggle {
+	background-color: #fccc00;
+}
+
+.navbar-toggle {
+    padding: 10px;
+}
+
+.navbar-toggle .icon-bar {
+    width: 15px;
+}
