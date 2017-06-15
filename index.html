@@ -1,92 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Lab Studio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<!-- TIPOGRAFIAS -->
-	<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Kaushan+Script|Raleway:800" rel="stylesheet">
-	<!-- CSS -->
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<menu id="menu">
-		<nav class="navbar  navbar-inverse  navbar-fixed-top">
+	<head>
+		<meta charset="UTF-8">
+		<title>Lab Studio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<!-- TIPOGRAFIAS -->
+		<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Kaushan+Script|Raleway:800" rel="stylesheet">
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<menu id="menu">
+			<nav class="navbar  navbar-inverse  navbar-fixed-top">
+				<div class="container">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+						<span class="txt-menu">Menu</span>
+						<span class="sr-only"> Toggle navigation</span>
+						<span class="hamburguesa">
+							<span class="icon-bar"> </span>
+							<span class="icon-bar"> </span>
+							<span class="icon-bar"> </span>
+						</span>
+					</button>
+					<a class="navbar-brand" href="#home">Start Bootstrap</a>
+
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#services">SERVICES</a></li>
+							<li><a href="#portafolio">PORTAFOLIO</a></li>
+							<li><a href="#abput">ABOUT</a></li>
+							<li><a href="#team">TEAM</a></li>
+							<li><a href="#contact">CONTACT</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</menu>
+		<header id="home" class="bg-img">
 			<div class="container">
-				<button type="button" class="navbar-toggle" data-toggle="collapse"
-				data-target=".navbar-collapse">
-					<span class="txt-menu">Menu</span>
-					<span class="sr-only"> Toggle navigation</span>
-					<span class="hamburguesa">
-						<span class="icon-bar"> </span>
-						<span class="icon-bar"> </span>
-						<span class="icon-bar"> </span>
-					</span>
-				</button>
-				<a class="navbar-brand" href="#home">Start Bootstrap</a>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+						<div class="box">
+							<h3>Welcome To Our Studio!</h3>
+							<h1>IT'S NICE TO MEET YOU</h1>
+							<button type="button" class="btn btn-default btn-lg" data-toggle="tooltip" data-placement="bottom" title="botoncito1">TELL ME MORE</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="services">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+						<div class="intro-services">
+							<h1 class="subt-section">SERVICES</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+						<div class="part-services">
+							<h2><i class="fa fa-shopping-cart btn-portafolio" aria-hidden="true"></i></h2>
+							<h3 class="subt-articulo">E-Commerce</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur maxime molestiae ipsum soluta sit ex deserunt iusto nulla quas totam.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+						<div class="part-services">
+							<h2><i class="fa fa-laptop btn-portafolio" aria-hidden="true"></i></h2>
+							<h3 class="subt-articulo">Responsive Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur maxime molestiae ipsum soluta sit ex deserunt iusto nulla quas totam.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+						<div class="part-services">
+							<h2><i class="fa fa-lock btn-portafolio" aria-hidden="true"></i></h2>
+							<h3 class="subt-articulo">Web Security</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur maxime molestiae ipsum soluta sit ex deserunt iusto nulla quas totam.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="portafolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+						<div class="intro-portfolio">
+							<h1 class="subt-section">PORTFOLIO</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
+						<div class="part-portfolio">
+							<div class="thumbnail">
+								<img src="img/roundicons.png" alt="round icons">
+								<div class="caption">
+									<h4>Round Icons</h4>
+									<p>Graphic Design</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
+						<div class="part-portfolio">
+							<div class="thumbnail">
+								<img src="img/startup-framework.png" alt="startup framework">
+								<div class="caption">
+									<h4>Startup Framework</h4>
+									<p>Website Design</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
+						<div class="part-portfolio">
+							<div class="thumbnail">
+								<img src="img/treehouse.png" alt="tree house">
+								<div class="caption">
+									<h4>Treehouse</h4>
+									<p>Website Design</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#services">SERVICES</a></li>
-						<li><a href="#portafolio">PORTAFOLIO</a></li>
-						<li><a href="#abput">ABOUT</a></li>
-						<li><a href="#team">TEAM</a></li>
-						<li><a href="#contact">CONTACT</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</menu>
-	<header id="home" class="bg-img">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-					<div class="box">
-						<h3>Welcome To Our Studio!</h3>
-						<h1>IT'S NICE TO MEET YOU</h1>
-						<button type="button" class="btn btn-default btn-lg" data-toggle="tooltip" data-placement="bottom" title="botoncito1">TELL ME MORE</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<section id="services">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-					<div class="part-services">
-						<h1 class="subt-section">SERVICES</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-					<div class="part-services">
-						<h2><i class="fa fa-shopping-cart" aria-hidden="true"></i></h2>
-						<h3 class="subt-articulo">E-Commerce</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur maxime molestiae ipsum soluta sit ex deserunt iusto nulla quas totam.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-					<div class="part-services">
-						<h2><i class="fa fa-laptop" aria-hidden="true"></i></h2>
-						<h3 class="subt-articulo">Responsive Design</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur maxime molestiae ipsum soluta sit ex deserunt iusto nulla quas totam.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-					<div class="part-services">
-						<h2><i class="fa fa-lock" aria-hidden="true"></i></h2>
-						<h3 class="subt-articulo">Web Security</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur maxime molestiae ipsum soluta sit ex deserunt iusto nulla quas totam.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
-</body>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
+						<div class="part-portfolio">
+							<div class="thumbnail">
+								<img src="img/golden.png" alt="round icons">
+								<div class="caption">
+									<h4>Golden</h4>
+									<p>Website Design</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
+						<div class="part-portfolio">
+							<div class="thumbnail">
+								<img src="img/escape.png" alt="startup framework">
+								<div class="caption">
+									<h4>Escape</h4>
+									<p>Website Design</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
+						<div class="part-portfolio">
+							<div class="thumbnail">
+								<img src="img/dreams.png" alt="tree house">
+								<div class="caption">
+									<h4>Dreams</h4>
+									<p>Website Design</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</body>
 </html>
